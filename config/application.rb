@@ -18,4 +18,4 @@ module SosialKoding
   end
 end
 
-config.filepicker_rails.api_key = ENV['FILEPICKER_API_KEY']
+
