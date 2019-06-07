@@ -1,0 +1,203 @@
+// FONT - LOGO AND TEXT
+		@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+		@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+// COLOR
+		$morkebla: rgb(19,83,115);
+		$lysegra: rgb(175,188,186);
+		$lysebla: rgb(160,188,208);
+		$morkegra: rgb(57,81,99);
+		$lysebrun: rgb(146,111,95);
+		$brun: rgb(78,24,27);
+
+// HTML AND BODY
+
+		body, html {
+			margin: 0;
+			padding: 0;
+		}
+
+		html {
+			font-size: 16px;
+		}
+
+
+// HEADER
+
+		.nav {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.logo {
+			font-family: 'Shadows Into Light', cursive;
+			font-size: 3rem;
+			padding: 0px 20px;
+			margin: 0;
+		}
+         
+		.menuTextContainer {
+			padding: 0;
+			margin: 0;
+			background: white;
+			display: flex;
+			justify-content: flex-end;
+				li {
+					list-style: none;
+				}
+				 	a {
+					display: block;
+					text-decoration: none;
+					color: black;
+					padding: 1rem 4.5rem 0rem 0rem;
+					font-size: 1.3rem;
+				}
+						:hover {
+							color: $lysegra;
+							text-decoration: none;
+						}
+		}
+
+// H AND P
+
+		h1, h2, h3, p {
+			font-family: 'Oswald', sans-serif;
+		}
+
+		h1 {
+			font-size: 3.5rem;
+			color: $lysegra;
+		}
+
+		h2 {
+			color: $lysebrun;
+			font-size: 2.2rem;
+		}
+
+		h3 {
+			color: $morkebla;
+			font-size: 1.9rem;
+		}
+
+		p {
+			color: $morkegra;
+			font-size: 1rem;
+		}
+
+
+
+// FRONTPICTURE AND TEXT ON FRONTPICTURE
+
+		.imagefront {
+			display: block;
+  			width: auto;
+  			height: auto;
+  			max-width: 100%;
+  			max-height: 90%;
+  			margin: 0px auto;
+  			padding: 0;
+		}
+
+		.textFrontPicture {
+			position: absolute;
+			left: 500px;
+			top: 580px;
+			
+		}
+
+// WHO ARE WE
+
+		.whoAreWeContainer {
+			margin: 40px;
+		}
+
+		
+
+// CONCEPT
+
+		.item1 {
+			grid-area: picture;
+		}
+
+		.item2 {
+			grid-area: tekst;
+		}
+
+		.concept {
+			display: grid;
+			grid-template-areas: 
+			'picture picture picture tekst tekst'
+			'picture picture picture tekst tekst'
+			'picture picture picture tekst tekst';
+			grid-gap: 10px;
+			padding: 10px;
+		}
+
+		.imageconcept {
+			display: block;
+  			width: 300px;
+  			margin: 20px 40px;
+  			padding: 0;
+		}
+
+		.test {
+			display: flex;
+		}
+
+// HVEM ER DU
+		
+		.whoAreYouHeadline {
+			margin-left: 40px;
+			color: red;
+		}
+
+		.whoAreYouBoxContainer {
+			margin: 50px;
+		}
+
+		.box p, .box h3 {
+			color: white;
+		}
+
+		.box {
+			margin-bottom: 25px;
+			padding: 60px 20px;
+			text-align: center;
+		}
+
+		.box1 {
+			background-color: $morkebla;
+		}
+
+		.box2 {
+			background-color: $lysegra;
+		}
+
+		.box3 {
+			background-color: $lysebla;
+		}
+
+		.box4 {
+			background-color: $morkegra;
+		}
+
+		.box5 {
+			background-color: $lysebrun;
+		}
+
+		.box6 {
+			background-color: $brun;
+		}
+
+// HOW JOIN US
+
+		.howJoinUsContainer {
+			margin-left: 40px;
+		}
+
+// MEDIA QUERY
+
+
+
+
+

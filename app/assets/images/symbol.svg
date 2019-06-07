@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="30px" viewBox="0 0 74 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Tagg 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-19.7%" y="-32.6%" width="139.4%" height="165.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Forside" transform="translate(-813.000000, -2826.000000)" fill="#D8D8D8" stroke="#979797">
+            <g id="Konsept" transform="translate(89.000000, 2583.000000)">
+                <g id="Tagg-1" filter="url(#filter-1)" transform="translate(728.000000, 245.000000)">
+                    <path d="M28,4.51680672 L5.88235294,21.5 L28,38.4831933 L28,43 L2.43492537e-12,21.5 L28,1.03028697e-12 L28,4.51680672 Z" id="Combined-Shape"></path>
+                    <path d="M38.0703324,38.483186 L60.1879799,21.9275623 L38.5992323,4.51674481 L38.6695636,8.39883718e-13 L66,22.0413195 L38,43 L38.0703324,38.483186 Z" id="Combined-Shape-Copy"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
