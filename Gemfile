@@ -29,6 +29,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'filepicker-rails'
 gem 'rails_12factor', group: :production
+gem "aws-sdk-s3", require: false
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
