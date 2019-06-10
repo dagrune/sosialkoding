@@ -81,7 +81,7 @@
 
 		p {
 			color: $morkegra;
-			font-size: 1rem;
+			font-size: 1.3rem;
 		}
 
 
@@ -102,7 +102,11 @@
 			position: absolute;
 			left: 35%;
 			top: 60%;
-			
+		}
+
+		.kodefellesskap {
+			background-color: $lysebla;
+			color: white;
 		}
 
 // MARGIN AND WIDTH
@@ -137,6 +141,8 @@
 			'picture picture picture tekst tekst'
 			'picture picture picture tekst tekst';
 			grid-gap: 10px;
+			background-color: $lysegra;
+			padding: 30px;
 		}
 
 		.imageconcept {
@@ -200,9 +206,33 @@
 
 		.imageconcept {
 			display:none;
-		}		
+		}
+}	
+
+@media only screen and (max-width: 900px) {
+.textFrontPicture {
+			position: absolute;
+			left: 35%;
+			top: 40%;
+			
+		}
 
 }
 
+@media only screen and (max-width: 700px) {
+
+.textFrontPicture {
+			position: absolute;
+			left: 35%;
+			top: 40%;
+			
+		}
+
+html {
+			font-size: 12px;
+		}
+
+
+}
 
 
