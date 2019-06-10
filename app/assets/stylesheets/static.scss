@@ -100,18 +100,25 @@
 
 		.textFrontPicture {
 			position: absolute;
-			left: 500px;
-			top: 580px;
+			left: 35%;
+			top: 60%;
 			
+		}
+
+// MARGIN AND WIDTH
+
+		.textContainer {
+			margin: 70px 90px 70px 90px;
+			max-width: 1200px;
+		}
+
+		.whoAreWeContainer, .linje, .concept, .whoAreYouHeadline, .whoAreYouBoxContainer, .howJoinUsContainer {
+			margin-bottom: 40px;
 		}
 
 // WHO ARE WE
 
-		.whoAreWeContainer {
-			margin: 40px;
-		}
 
-		
 
 // CONCEPT
 
@@ -130,30 +137,24 @@
 			'picture picture picture tekst tekst'
 			'picture picture picture tekst tekst';
 			grid-gap: 10px;
-			padding: 10px;
 		}
 
 		.imageconcept {
 			display: block;
-  			width: 300px;
-  			margin: 20px 40px;
+  			width: 200px;
+  			margin-right: 20px;
+  			margin-left: 0px;
   			padding: 0;
+  			margin-left: 0px;
+			margin-top: 0px;
 		}
 
 		.test {
 			display: flex;
+			margin-left: 20px;
 		}
 
 // HVEM ER DU
-		
-		.whoAreYouHeadline {
-			margin-left: 40px;
-			color: red;
-		}
-
-		.whoAreYouBoxContainer {
-			margin: 50px;
-		}
 
 		.box p, .box h3 {
 			color: white;
@@ -191,13 +192,17 @@
 
 // HOW JOIN US
 
-		.howJoinUsContainer {
-			margin-left: 40px;
-		}
+		
 
 // MEDIA QUERY
 
+@media only screen and (max-width: 900px) {
 
+		.imageconcept {
+			display:none;
+		}		
+
+}
 
 
 
