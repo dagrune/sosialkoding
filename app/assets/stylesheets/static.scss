@@ -42,19 +42,17 @@
 			background: white;
 			display: flex;
 			justify-content: flex-end;
-				li {
-					list-style: none;
-				}
 				 	a {
 					display: block;
 					text-decoration: none;
 					color: black;
-					padding: 1rem 4.5rem 0rem 0rem;
+					padding: 1rem 2rem 1rem 2rem;
 					font-size: 1.3rem;
 				}
 						:hover {
-							color: $lysegra;
+							background-color: $morkebla;
 							text-decoration: none;
+							color: white;
 						}
 		}
 
@@ -105,17 +103,16 @@
 		}
 
 		.kodefellesskap {
-			background-color: $lysebla;
-			color: white;
+			color: $lysegra;
 		}
 
-// MARGIN, PADDING, WIDTH, HEIGHT
+// CONTAINER - MARGIN, PADDING, WIDTH, HEIGHT
 
 		.textContainer {
 			margin: 70px 40px 20px 40px;
 			max-width: 1200px;
 		}
-
+																   
 		.whoAreWeContainer, .linje, .concept, .whoAreYouHeadline, .whoAreYouBoxContainer, .howJoinUsContainer {
 			margin-bottom: 40px;
 		}
