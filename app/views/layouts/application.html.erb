@@ -17,40 +17,40 @@
 
   <body>
 
-    <header>
-        
+    <header class="header">
         
         <nav class="navbar navbar-light navbar-expand-sm fixed-top menuTextContainer">
           
-              
-              <div class="navbar-brand logo">SOSIAL KODING</div>
-
+              <div class="logo">SOSIAL KODING</div>
               
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav"><span class="navbar-toggler-icon my-toggler"></span></button>
 
               
               <div class="collapse navbar-collapse justify-content-end" id="myTogglerNav">
-                  
-                  
-                  <div class="navbar-nav  aMenu">
-                      <a class="nav-item nav-link " href="#">Om oss</a>     
-                      <a class="nav-item nav-link" href="#">Konsept</a>
-                      <a class="nav-item nav-link" href="#">Hvem er du</a>
-                      <a class="nav-item nav-link" href="#">Medlem</a>
-                      <a class="nav-item nav-link" href="#">Kontakt</a>
+                  <div class="navbar-nav">
+                      <a class="nav-item nav-link aMenu" href="#">Om oss</a>     
+                      <a class="nav-item nav-link aMenu" href="#">Konsept</a>
+                      <a class="nav-item nav-link aMenu" href="#">Hvem er du</a>
+                      <a class="nav-item nav-link aMenu" href="#">Medlem</a>
+                      <a class="nav-item nav-link aMenu" href="#">Kontakt</a>
                   </div>
               </div>
        
         </nav>
-        
+           
     </header>
 
     <%= yield %>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <!-- Popper.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
   </body>
   </body>
 </html>

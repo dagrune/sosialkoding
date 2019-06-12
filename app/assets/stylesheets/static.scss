@@ -27,12 +27,16 @@
 		.logo {
 			font-family: 'Shadows Into Light', cursive;
 			font-size: 2.2rem;
-			padding: 0px 20px;
-			margin: 0;
+			padding: 10px 25px;
+			
 		}
          
 		.menuTextContainer {
-			background-color: white;
+			background-color: rgb(255,255,255);
+		}
+
+		.aMenu {
+
 		}
 
 		a {
@@ -50,6 +54,23 @@
 			color: white !important;
 		}
 
+// FRONTPICTURE AND TEXT ON FRONTPICTURE
+
+		.imageFront {
+			width: auto;
+  			height: auto;
+  			max-width: 100%;
+  			max-height: 90%;
+  			margin: 0px auto;
+  			padding: 0;
+		}
+		
+		.textFront h1 {
+			position: absolute;
+			top: 60%;
+			left: 44%;
+		}
+
 // H AND P
 
 		h1, h2, h3, p {
@@ -62,12 +83,12 @@
 		}
 
 		h2 {
-			color: $lysebrun;
+			color: $morkebla;
 			font-size: 2.2rem;
 		}
 
 		h3 {
-			color: $morkebla;
+			color: $lysebrun;
 			font-size: 1.6rem;
 		}
 
@@ -78,27 +99,7 @@
 
 
 
-// FRONTPICTURE AND TEXT ON FRONTPICTURE
 
-		.imagefront {
-			display: block;
-			width: auto;
-  			height: auto;
-  			max-width: 100%;
-  			max-height: 90%;
-  			margin: 0px auto;
-  			padding: 0;
-		}
-
-		.textFrontPicture {
-			position: absolute;
-			left: 35%;
-			top: 60%;
-		}
-
-		.kodefellesskap {
-			color: $lysegra;
-		}
 
 // CONTAINER - MARGIN, PADDING, WIDTH, HEIGHT
 
@@ -134,6 +135,7 @@
 			grid-gap: 10px;
 			background-color: $lysegra;
 			padding: 30px;
+			
 		}
 
 		.imageconcept {
@@ -146,12 +148,12 @@
 			margin-top: 0px;
 		}
 
-		.test {
+		.imgTextConceptContainer {
 			display: flex;
 			margin-left: 20px;
 		}
 
-		.symbol {
+		.symbolconcept {
 			margin-right: 25px;
 		}
 
@@ -211,30 +213,34 @@
 			display:none;
 		}
 
-		.symbol {
+		.symbolconcept {
 			display: none;
 		}
+
+		.textFront h1 {
+			display: none;
+		}
+
+		
 }	
 
-@media only screen and (max-width: 900px) {
-		.textFrontPicture {
-					position: absolute;
-					left: 35%;
-					top: 40%;
-		}
-}
-
-@media only screen and (max-width: 900px) {
-
-		.textFrontPicture {
-					position: absolute;
-					left: 35%;
-					top: 40%;
-		}
+@media only screen and (max-width: 1025px) {
 
 		html {
 					font-size: 10px;
 		}
+
+		.imgTextConceptContainer {
+			margin-left: 0px;
+		}
+
+		
+
 }
 
+@media only screen and (max-width: 360px) {
+
+		
+
+}
 
