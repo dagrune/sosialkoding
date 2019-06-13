@@ -68,8 +68,6 @@
 		
 		.textFront h1 {
 			position: absolute;
-			top: 60%;
-			left: 44%;
 		}
 
 // H AND P
@@ -225,12 +223,17 @@
 // Extra small devices
 @media (max-width: 575.98px) {
 
+		.textFront h1 {
+			top: 20%;
+			left: 44%;
+		}
 
 }
 
 //Extra small and small devices
 @media (max-width: 767.98px) {
 
+		
 		
 }
 
@@ -258,9 +261,7 @@
 //Ekstra small, small, medium and large devices
 @media (max-width: 1199.98px) {
 
-		.textFront h1 {
-			display: none;
-		}
+		
 
 }
 
@@ -273,26 +274,40 @@
 // Small devices 
 @media (min-width: 576px) and (max-width: 767.98px) {  
 		
-		
+		.textFront h1 {
+			top: 27%;
+			left: 44%;
+		}
 		
 }
 
 // Medium devices 
 @media (min-width: 768px) and (max-width: 991.98px) {  
 
-		
+		.textFront h1 {
+			top: 37%;
+			left: 44%;
+		}
 
 }
 
 // Large devices 
 @media (min-width: 992px) and (max-width: 1199.98px) {  
 
-		
+		.textFront h1 {
+			top: 45%;
+			left: 44%;
+		}
 
 }
 
 // Extra large devices 
 @media (min-width: 1200px) {  
+
+		.textFront h1 {
+			top: 60%;
+			left: 44%;
+		}
 
 }
 
