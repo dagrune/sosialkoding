@@ -3,14 +3,14 @@
 		@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 // COLOR
-		$morkebla: rgb(19,83,115);
-		$lysegra: rgb(175,188,186);
-		$lysebla: rgb(160,188,208);
-		$morkegra: rgb(57,81,99);
-		$lysebrun: rgb(146,111,95);
-		$brun: rgb(78,24,27);
+		$color1: rgb(19,83,115);
+		$color2: rgb(175,188,186);
+		$color3: rgb(160,188,208);
+		$color4: rgb(57,81,99);
+		$color5: rgb(146,111,95);
+		$color6: rgb(78,24,27);
 
-// HTML AND BODY
+// GLOBAL - HTML, BODY, H, P
 
 		body, html {
 			margin: 0;
@@ -21,6 +21,40 @@
 			font-size: 16px;
 		}
 
+		h1, h2, h3, p {
+			font-family: 'Oswald', sans-serif;
+		}
+
+		h1 {
+			font-size: 3.5rem;
+			color: $color2;
+		}
+
+		h2 {
+			color: $color5;
+			font-size: 2.2rem;
+		}
+
+		h3 {
+			color: $color1;
+			font-size: 1.6rem;
+		}
+
+		p {
+			color: $color4;
+			font-size: 1.3rem;
+		}
+
+// CONTAINER - MARGIN, PADDING, WIDTH, HEIGHT
+
+		.textContainer {
+			margin: 70px 40px 20px 40px;
+			max-width: 1200px;
+		}
+																   
+		.whoAreWeContainer, .linje, .concept, .whoAreYouBoxContainer, .howJoinUsContainer {
+			margin-bottom: 80px;
+		}
 
 // HEADER
 
@@ -50,7 +84,7 @@
 		}
 
 		a:hover {
-			background-color: $morkebla;
+			background-color: $color1;
 			text-decoration: none;
 			color: white !important;
 		}
@@ -70,46 +104,6 @@
 			position: absolute;
 		}
 
-// H AND P
-
-		h1, h2, h3, p {
-			font-family: 'Oswald', sans-serif;
-		}
-
-		h1 {
-			font-size: 3.5rem;
-			color: $lysegra;
-		}
-
-		h2 {
-			color: $lysebrun;
-			font-size: 2.2rem;
-		}
-
-		h3 {
-			color: $morkebla;
-			font-size: 1.6rem;
-		}
-
-		p {
-			color: $morkegra;
-			font-size: 1.3rem;
-		}
-
-
-
-
-
-// CONTAINER - MARGIN, PADDING, WIDTH, HEIGHT
-
-		.textContainer {
-			margin: 70px 40px 20px 40px;
-			max-width: 1200px;
-		}
-																   
-		.whoAreWeContainer, .linje, .concept, .whoAreYouBoxContainer, .howJoinUsContainer {
-			margin-bottom: 80px;
-		}
 
 // ABOUT US
 
@@ -132,7 +126,7 @@
 			'picture picture picture tekst tekst'
 			'picture picture picture tekst tekst';
 			grid-gap: 10px;
-			background-color: $lysegra;
+			background-color: $color2;
 			padding: 30px;
 			
 		}
@@ -160,7 +154,7 @@
 			margin-top: 15px;
 		}
 
-// HVEM ER DU
+// WHO ARE YOU
 
 		.whoAreYouBoxContainer {
 			margin: 18px;
@@ -177,33 +171,33 @@
 		}
 
 		.box1 {
-			background-color: $morkebla;
+			background-color: $color1;
 		}
 
 		.box2 {
-			background-color: $lysegra;
+			background-color: $color2;
 		}
 
 		.box3 {
-			background-color: $lysebla;
+			background-color: $color3;
 		}
 
 		.box4 {
-			background-color: $morkegra;
+			background-color: $color4;
 		}
 
 		.box5 {
-			background-color: $lysebrun;
+			background-color: $color5;
 		}
 
 		.box6 {
-			background-color: $brun;
+			background-color: $color6;
 		}
 
 // MEMBER
 
 		.memberTextContainerOuter {
-			background-color: $lysegra;
+			background-color: $color2;
 			padding: 40px 0px 40px 0px;
 			
 		}
@@ -216,7 +210,11 @@
 			padding: 0px 40px 0px 40px;
 
 		}
-		
+
+// CONTACT
+
+
+
 
 // MEDIA QUERY - ONLY MAX-WIDTH
 
