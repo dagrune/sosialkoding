@@ -32,7 +32,8 @@
 		}
          
 		.menuTextContainer {
-			background-color: rgb(255,255,255);
+			background-color: rgba(255,255,255,0.9);
+			border-bottom: 1px solid black;
 		}
 
 		.aMenu {
@@ -83,12 +84,12 @@
 		}
 
 		h2 {
-			color: $morkebla;
+			color: $lysebrun;
 			font-size: 2.2rem;
 		}
 
 		h3 {
-			color: $lysebrun;
+			color: $morkebla;
 			font-size: 1.6rem;
 		}
 
@@ -203,11 +204,42 @@
 
 // MEMBER
 
+		.memberTextContainerOuter {
+			background-color: $lysegra;
+			padding: 40px 0px 40px 0px;
+			
+		}
+
+		.memberTextContainerInner {
+			max-width: 1200px;
+		}
+
+		.memberText {
+			padding: 0px 40px 0px 40px;
+
+		}
 		
 
-// MEDIA QUERY
+// MEDIA QUERY MAX-WIDTH
 
-@media only screen and (max-width: 900px) {
+// Extra small devices
+@media (max-width: 575.98px) {
+
+
+}
+
+//Extra small and small devices
+@media (max-width: 767.98px) {
+
+		
+}
+
+//Ekstra small, small and medium devices
+@media (max-width: 991.98px) {
+
+		html {
+			font-size: 10px;
+		}
 
 		.imageconcept {
 			display:none;
@@ -217,30 +249,51 @@
 			display: none;
 		}
 
-		.textFront h1 {
-			display: none;
-		}
-
-		
-}	
-
-@media only screen and (max-width: 1025px) {
-
-		html {
-					font-size: 10px;
-		}
-
 		.imgTextConceptContainer {
 			margin-left: 0px;
 		}
 
+}
+
+//Ekstra small, small, medium and large devices
+@media (max-width: 1199.98px) {
+
+		.textFront h1 {
+			display: none;
+		}
+
+}
+
+
+
+
+
+// MEDIA QUERY BETWEEN MIN AND MAX
+
+// Small devices 
+@media (min-width: 576px) and (max-width: 767.98px) {  
+		
+		
+		
+}
+
+// Medium devices 
+@media (min-width: 768px) and (max-width: 991.98px) {  
+
 		
 
 }
 
-@media only screen and (max-width: 360px) {
+// Large devices 
+@media (min-width: 992px) and (max-width: 1199.98px) {  
 
 		
 
 }
+
+// Extra large devices 
+@media (min-width: 1200px) {  
+
+}
+
 
