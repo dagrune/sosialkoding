@@ -218,102 +218,99 @@
 		}
 		
 
-// MEDIA QUERY MAX-WIDTH
+// MEDIA QUERY ONLY MAX-WIDTH
 
-// Extra small devices
-@media (max-width: 575.98px) {
+		// TO: Extra small devices
+				@media (max-width: 575.98px) {
 
-		.textFront h1 {
-			top: 18%;
-			left: 44%;
-			
-		}
+						.textFront h1 {
+							top: 18%;
+							left: 44%;
+							
+						}
 
-		html {
-			font-size: 5px;
-		}
+						html {
+							font-size: 5px;
+						}
 
-}
+				}
 
-//Extra small and small devices
-@media (max-width: 767.98px) {
+		//TO: small devices
+				@media (max-width: 767.98px) {
 
-		
-		
-}
+						
+						
+				}
 
-//Ekstra small, small and medium devices
-@media (max-width: 991.98px) {
+		//TO: medium devices
+				@media (max-width: 991.98px) {
 
-		html {
-			font-size: 10px;
-		}
+						html {
+							font-size: 10px;
+						}
 
-		.imageconcept {
-			display:none;
-		}
+						.imageconcept {
+							display:none;
+						}
 
-		.symbolconcept {
-			display: none;
-		}
+						.symbolconcept {
+							display: none;
+						}
 
-		.imgTextConceptContainer {
-			margin-left: 0px;
-		}
+						.imgTextConceptContainer {
+							margin-left: 0px;
+						}
 
-}
+				}
 
-//Ekstra small, small, medium and large devices
-@media (max-width: 1199.98px) {
+		//TO: large devices
+				@media (max-width: 1199.98px) {
 
-		
+						
 
-}
-
-
-
+				}
 
 
 // MEDIA QUERY BETWEEN MIN AND MAX
 
-// Small devices 
-@media (min-width: 576px) and (max-width: 767.98px) {  
-		
-		.textFront h1 {
-			top: 27%;
-			left: 44%;
-		}
-		
-}
+		// ONLY: Small devices 
+				@media (min-width: 576px) and (max-width: 767.98px) {  
+						
+						.textFront h1 {
+							top: 27%;
+							left: 44%;
+						}
+						
+				}
 
-// Medium devices 
-@media (min-width: 768px) and (max-width: 991.98px) {  
+		// ONLY: Medium devices 
+				@media (min-width: 768px) and (max-width: 991.98px) {  
 
-		.textFront h1 {
-			top: 37%;
-			left: 44%;
-		}
+						.textFront h1 {
+							top: 37%;
+							left: 44%;
+						}
 
-}
+				}
 
-// Large devices 
-@media (min-width: 992px) and (max-width: 1199.98px) {  
+		// ONLY: Large devices 
+				@media (min-width: 992px) and (max-width: 1199.98px) {  
 
-		.textFront h1 {
-			top: 45%;
-			left: 44%;
-		}
+						.textFront h1 {
+							top: 45%;
+							left: 44%;
+						}
 
-}
+				}
 
-// Extra large devices 
-@media (min-width: 1200px) {  
+		// ONLY: Extra large devices 
+				@media (min-width: 1200px) {  
 
-		.textFront h1 {
-			top: 60%;
-			left: 44%;
-		}
+						.textFront h1 {
+							top: 60%;
+							left: 44%;
+						}
 
-}
+				}
 
 
