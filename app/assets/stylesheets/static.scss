@@ -3,12 +3,12 @@
 		@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 // COLOR
-		$color1: rgb(19,83,115); 		//
-		$color2: rgb(175,188,186);		//
-		$color3: rgb(160,188,208);		//
-		$color4: rgb(57,81,99);			//
-		$color5: rgb(146,111,95);		//
-		$color6: rgb(78,24,27);			//
+		$color1: rgb(160,188,208);		// lyseblå
+		$color2: rgb(19,83,115); 		// mørkeblå
+		$color3: rgb(175,188,186);		// lysegrå
+		$color4: rgb(57,81,99);			// mørkegrå
+		$color5: rgb(146,111,95);		// lysebrun
+		$color6: rgb(78,24,27);			// mørkebrun
 
 // GLOBAL - HTML, BODY, H, P
 
@@ -27,7 +27,7 @@
 
 		h1 {
 			font-size: 3.5rem;
-			color: $color2;
+			color: $color3;
 		}
 
 		h2 {
@@ -36,7 +36,7 @@
 		}
 
 		h3 {
-			color: $color1;
+			color: $color2;
 			font-size: 1.6rem;
 		}
 
@@ -83,7 +83,7 @@
 		}
 
 		a:hover {
-			background-color: $color1;
+			background-color: $color2;
 			text-decoration: none;
 			color: white !important;
 		}
@@ -125,7 +125,7 @@
 			'picture picture picture tekst tekst'
 			'picture picture picture tekst tekst';
 			grid-gap: 10px;
-			background-color: $color2;
+			background-color: $color3;
 			padding: 30px;
 			
 		}
@@ -196,7 +196,7 @@
 // MEMBER
 
 		.memberTextContainerOuter {
-			background-color: $color2;
+			background-color: $color3;
 			padding: 40px 0px 40px 0px;
 			
 		}
@@ -213,6 +213,13 @@
 // CONTACT
 
 
+
+// FOOTER
+
+		footer {
+			Height: 400px;
+			background-color: $color3;
+		}
 
 
 // MEDIA QUERY - ONLY MAX-WIDTH
