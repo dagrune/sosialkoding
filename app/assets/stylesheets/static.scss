@@ -27,7 +27,7 @@
 
 		h1 {
 			font-size: 3.5rem;
-			color: $color3;
+			color: $color1;
 		}
 
 		h2 {
@@ -48,8 +48,12 @@
 // CONTAINER - MARGIN, PADDING, WIDTH, HEIGHT
 
 		.textContainer, .contactContainer {
-			margin: 20px 40px 20px 40px;
-			max-width: 1200px;
+			margin: 20px 60px 20px 60px;
+			max-width: 1000px;
+		}
+
+		.whoAreWeContainer, .conceptContainer, .whoAreYouContainer, .memberTextContainerOuter {
+			margin-bottom: 300px;
 		}
 
 // HEADER
@@ -57,7 +61,8 @@
 		.logo {
 			font-family: 'Shadows Into Light', cursive;
 			font-size: 2.2rem;
-			padding: 10px 25px;
+			padding: 10px 25px 10px 45px;
+			color: $color2;
 			
 		}
          
@@ -69,7 +74,7 @@
 		.anchor {
 			display: block;
 			position: relative;
-			top: -80px;
+			top: -107px;
 			visibility: hidden; 
 			
 		}
@@ -118,7 +123,7 @@
 			grid-area: tekst;
 		}
 
-		.concept {
+		.conceptContainer {
 			display: grid;
 			grid-template-areas: 
 			'picture picture picture tekst tekst'
@@ -314,9 +319,10 @@
 				@media (min-width: 1200px) {  
 
 						.textFront h1 {
-							top: 60%;
-							left: 44%;
-						}
+							top: 90%;
+							left: 2%;
+							background-color: $color3;
+													}
 
 				}
 
