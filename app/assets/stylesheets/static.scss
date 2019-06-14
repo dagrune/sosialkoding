@@ -58,12 +58,12 @@
 
 // HEADER
 
-		.logo {
+		.logo a {
 			font-family: 'Shadows Into Light', cursive;
 			font-size: 2.2rem;
 			padding: 10px 25px 10px 45px;
 			color: $color2;
-			
+			text-decoration: none;
 		}
          
 		.menuTextContainer {
@@ -85,6 +85,10 @@
 			margin: 0.5rem;
 			font-size: 1.3rem;
 			color: black !important;
+		}
+
+		.logo a:hover {
+			text-decoration: none;
 		}
 
 		a:hover {
