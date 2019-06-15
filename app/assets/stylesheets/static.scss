@@ -116,7 +116,9 @@
 
 // ABOUT US
 
-		
+		.whoAreWeContainer {
+			border-bottom: 1px solid black;
+		}
 
 // CONCEPT
 
@@ -237,7 +239,8 @@
 
 		footer {
 			Height: 270px;
-			background-color: white;
+			background-color: red;
+			border: 6px solid black;
 		}
 
 
