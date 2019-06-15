@@ -43,6 +43,7 @@
 		p {
 			color: $color4;
 			font-size: 1.3rem;
+			
 		}
 
 // CONTAINER - MARGIN, PADDING, WIDTH, HEIGHT
@@ -53,7 +54,7 @@
 		}
 
 		.whoAreWeContainer, .conceptContainer, .whoAreYouContainer, .memberTextContainerOuter {
-			margin-bottom: 300px;
+			
 		}
 
 // HEADER
@@ -176,10 +177,14 @@
 			margin-bottom: 25px;
 			padding: 60px 20px;
 			text-align: center;
+			border-right: 6px solid white;
 		}
+
+		
 
 		.box1 {
 			background-color: $color1;
+
 		}
 
 		.box2 {
@@ -188,6 +193,7 @@
 
 		.box3 {
 			background-color: $color3;
+			border-right: 0px solid white;
 		}
 
 		.box4 {
@@ -200,6 +206,7 @@
 
 		.box6 {
 			background-color: $color6;
+			border-right: 0px solid white;
 		}
 
 // MEMBER
@@ -229,8 +236,8 @@
 // FOOTER
 
 		footer {
-			Height: 400px;
-			background-color: $color3;
+			Height: 270px;
+			background-color: white;
 		}
 
 
