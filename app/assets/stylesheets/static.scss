@@ -58,6 +58,7 @@
 		.textContainer {
 			margin: 20px 105px 200px 105px;
 			max-width: 1000px;
+			align: center;
 		}
 
 // HEADER
@@ -294,41 +295,28 @@
 		// ONLY: Small devices 
 				@media (min-width: 576px) and (max-width: 767.98px) {  
 						
-						.textFront h1 {
-							top: 27%;
-							left: 44%;
-						}
+						
 						
 				}
 
 		// ONLY: Medium devices 
 				@media (min-width: 768px) and (max-width: 991.98px) {  
 
-						.textFront h1 {
-							top: 37%;
-							left: 44%;
-						}
+						
 
 				}
 
 		// ONLY: Large devices 
 				@media (min-width: 992px) and (max-width: 1199.98px) {  
 
-						.textFront h1 {
-							top: 45%;
-							left: 44%;
-						}
+						
 
 				}
 
 		// ONLY: Extra large devices 
 				@media (min-width: 1200px) {  
 
-						.textFront h1 {
-							top: 90%;
-							left: 2%;
-							background-color: $color3;
-													}
+
 
 				}
 
