@@ -12,6 +12,8 @@
 
 // GLOBAL - HTML, BODY, H, P, A
 
+		
+
 		body, html {
 			margin: 0;
 			padding: 0;
@@ -58,7 +60,6 @@
 		.textContainer {
 			margin: 20px 105px 200px 105px;
 			max-width: 1000px;
-			align: center;
 		}
 
 // HEADER
@@ -83,7 +84,7 @@
 		.logo a {
 			font-family: 'Shadows Into Light', cursive;
 			font-size: 2.2rem;
-			padding: 0px 45px 0px 45px;
+			padding: 0px 45px 0px 80px;
 			color: $color2;
 		}
 		
@@ -268,10 +269,6 @@
 							font-size: 10px;
 						}
 
-						.imageconcept {
-							display:none;
-						}
-
 						.symbolconcept {
 							display: none;
 						}
@@ -309,15 +306,37 @@
 		// ONLY: Large devices 
 				@media (min-width: 992px) and (max-width: 1199.98px) {  
 
-						
+					
 
 				}
 
 		// ONLY: Extra large devices 
 				@media (min-width: 1200px) {  
 
-
+					
 
 				}
 
+		// ONLY: Extra Extra large device
+				@media (min-width: 1700px) {  
+
+					.imageFrontContainer {
+						display: block;
+  						margin-left: auto;
+  						margin-right: auto;
+  						width: 50%;
+					}
+
+					.textContainer {
+						width: 900px;
+    					margin: 0 auto;
+						max-width: 1000px;
+					}
+
+					.memberTextContainer {
+						padding-bottom: 40px;
+					}
+
+
+				}
 
