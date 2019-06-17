@@ -10,7 +10,7 @@
 		$color5: rgb(146,111,95);		// lysebrun
 		$color6: rgb(78,24,27);			// mørkebrun
 
-// GLOBAL - HTML, BODY, H, P
+// GLOBAL - HTML, BODY, H, P, A
 
 		body, html {
 			margin: 0;
@@ -21,13 +21,13 @@
 			font-size: 16px;
 		}
 
-		h1, h2, h3, p {
+		h1, h2, h3, p, a {
 			font-family: 'Oswald', sans-serif;
 		}
 
 		h1 {
-			font-size: 3.5rem;
 			color: $color1;
+			font-size: 3.5rem;	
 		}
 
 		h2 {
@@ -43,33 +43,51 @@
 		p {
 			color: $color4;
 			font-size: 1.3rem;
-			
 		}
 
-// CONTAINER - MARGIN, PADDING, WIDTH, HEIGHT
+		a {
+			text-decoration: none;
+			color: black;
+		}
 
-		.textContainer, .contactContainer {
+
+
+
+// GLOBAL CONTAINER - MARGIN, PADDING, WIDTH, HEIGHT + ANCHOR
+
+		.textContainer, .memberTextContainerInner {
 			margin: 20px 60px 20px 60px;
 			max-width: 1000px;
 		}
 
-		.whoAreWeContainer, .conceptContainer, .whoAreYouContainer, .memberTextContainerOuter {
-			
+// HEADER
+
+		.logoMenuContainer {
+			background-color: rgba(255,255,255,0.9);
+			border-bottom: 1px solid black;
 		}
 
-// HEADER
+		a {
+			font-size: 1.3rem;
+			padding: 1rem 2rem 1rem 2rem;
+			color: black !important;
+			margin: 0.5rem;
+		}
+
+		a:hover {
+			background-color: $color2;
+			color: white !important;
+		}
 
 		.logo a {
 			font-family: 'Shadows Into Light', cursive;
 			font-size: 2.2rem;
-			padding: 10px 25px 10px 45px;
+			padding: 0px 45px 0px 45px;
 			color: $color2;
-			text-decoration: none;
 		}
-         
-		.menuTextContainer {
-			background-color: rgba(255,255,255,0.9);
-			border-bottom: 1px solid black;
+		
+		.logo a:hover {
+			text-decoration: none;
 		}
 
 		.anchor {
@@ -77,25 +95,6 @@
 			position: relative;
 			top: -107px;
 			visibility: hidden; 
-			
-		}
-
-		a {
-			text-decoration: none;
-			padding: 1rem 2rem 1rem 2rem;
-			margin: 0.5rem;
-			font-size: 1.3rem;
-			color: black !important;
-		}
-
-		.logo a:hover {
-			text-decoration: none;
-		}
-
-		a:hover {
-			background-color: $color2;
-			text-decoration: none;
-			color: white !important;
 		}
 
 // FRONTPICTURE AND TEXT ON FRONTPICTURE
@@ -109,52 +108,29 @@
   			padding: 0;
 		}
 
-		.textFront h1 {
-			position: absolute;
-		}
-
-
 // ABOUT US
 
-		.whoAreWeContainer {
+		.linje1 {
 			border-bottom: 1px solid black;
+			min-width: 300px;
+			display: inline-block;
+			padding-top: 40px;
 		}
 
 // CONCEPT
 
-		.item1 {
-			grid-area: picture;
-		}
-
-		.item2 {
-			grid-area: tekst;
-		}
-
 		.conceptContainer {
-			display: grid;
-			grid-template-areas: 
-			'picture picture picture tekst tekst'
-			'picture picture picture tekst tekst'
-			'picture picture picture tekst tekst';
-			grid-gap: 10px;
-			background-color: $color3;
-			padding: 30px;
-			
+			background-color: white;
+			padding: 0px;
 		}
 
-		.imageconcept {
-			display: block;
-  			width: 200px;
-  			margin-right: 20px;
-  			margin-left: 0px;
-  			padding: 0;
-  			margin-left: 0px;
-			margin-top: 0px;
+		.conceptContainerLeft {
+
 		}
 
 		.imgTextConceptContainer {
 			display: flex;
-			margin-left: 20px;
+			margin-left: 0px;
 		}
 
 		.symbolconcept {
@@ -163,6 +139,13 @@
 
 		.textconcept {
 			margin-top: 15px;
+		}
+
+		.linje2 {
+			border-bottom: 1px solid black;
+			min-width: 300px;
+			display: inline-block;
+			padding-top: 40px;
 		}
 
 // WHO ARE YOU
@@ -182,11 +165,8 @@
 			border-right: 6px solid white;
 		}
 
-		
-
 		.box1 {
 			background-color: $color1;
-
 		}
 
 		.box2 {
@@ -213,20 +193,11 @@
 
 // MEMBER
 
-		.memberTextContainerOuter {
-			background-color: $color3;
-			padding: 40px 0px 40px 0px;
-			
-		}
-
-		.memberTextContainerInner {
+		.memberTextContainer {
 			max-width: 1200px;
 		}
 
-		.memberText {
-			padding: 0px 40px 0px 40px;
-
-		}
+		
 
 // CONTACT
 
@@ -239,8 +210,8 @@
 
 		footer {
 			Height: 270px;
-			background-color: red;
-			border: 6px solid black;
+			background-color: white;
+			border: 1px solid black;
 		}
 
 
