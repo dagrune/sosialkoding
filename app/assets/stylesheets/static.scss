@@ -8,10 +8,11 @@ en eller flere ganger på en side
 - Bruk id selector brukes bare på unike ting. En gang pr side
 - Descendent selector: ikke gå mer enn tre ledd ned
 - Grupper selector når de skal styles de likt
+- Begynn med generelle selector og slutt med mer spesifikke
 */
 
 
-// FONT - LOGO AND TEXT 
+// GOOGLE FONT - LOGO AND TEXT 
 // ---------------------------------------------------------
 		
 		@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
@@ -269,6 +270,10 @@ en eller flere ganger på en side
 							
 						}
 
+						.logo a {
+							padding: 0px 45px 0px 15px;
+						}
+
 				}
 
 		//TO: small devices
@@ -293,6 +298,8 @@ en eller flere ganger på en side
 							margin-left: 0px;
 						}
 
+						
+
 				}
 
 		//TO: large devices
@@ -316,7 +323,9 @@ en eller flere ganger på en side
 		// ONLY: Medium devices 
 				@media (min-width: 768px) and (max-width: 991.98px) {  
 
-						
+					.logo a {
+							padding: 0px 45px 0px 90px;
+						}						
 
 				}
 
