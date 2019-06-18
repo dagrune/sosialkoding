@@ -1,8 +1,25 @@
-// FONT - LOGO AND TEXT
+// RETNINGSLINJER CSS
+// ----------------------------------------------------------
+/*
+- Bruk type selector når alle eller de fleste 
+tilfeller av elementer styles likt
+- Bruk class selector når du trenger å style ulike elementer 
+en eller flere ganger på en side
+- Bruk id selector brukes bare på unike ting. En gang pr side
+- Descendent selector: ikke gå mer enn tre ledd ned
+- Grupper selector når de skal styles de likt
+*/
+
+
+// FONT - LOGO AND TEXT 
+// ---------------------------------------------------------
+		
 		@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 		@import url('https://fonts.googleapis.com/css?family=Oswald');
 
-// COLOR
+// COLOR 
+// ---------------------------------------------------------
+		
 		$color1: rgb(160,188,208);		// lyseblå
 		$color2: rgb(19,83,115); 		// mørkeblå
 		$color3: rgb(175,188,186);		// lysegrå
@@ -11,8 +28,7 @@
 		$color6: rgb(78,24,27);			// mørkebrun
 
 // GLOBAL - HTML, BODY, H, P, A
-
-		
+// ---------------------------------------------------------
 
 		body, html {
 			margin: 0;
@@ -55,7 +71,8 @@
 
 
 
-// GLOBAL CONTAINER - MARGIN, PADDING, WIDTH, HEIGHT + ANCHOR
+// GLOBAL CONTAINER - MARGIN, PADDING, WIDTH, HEIGHT
+// ---------------------------------------------------------
 
 		.textContainer {
 			margin: 20px 105px 200px 105px;
@@ -63,6 +80,7 @@
 		}
 
 // HEADER
+// ---------------------------------------------------------
 
 		.logoMenuContainer {
 			background-color: rgba(255,255,255,0.9);
@@ -99,7 +117,8 @@
 			visibility: hidden; 
 		}
 
-// FRONTPICTURE AND TEXT ON FRONTPICTURE
+// FRONTPICTURE
+// ---------------------------------------------------------
 
 		.imageFront {
 			width: auto;
@@ -111,6 +130,7 @@
 		}
 
 // ABOUT US
+// ---------------------------------------------------------
 
 		.linje1 {
 			border-bottom: 1px solid black;
@@ -120,6 +140,7 @@
 		}
 
 // CONCEPT
+// ---------------------------------------------------------
 
 		.conceptContainer {
 			background-color: white;
@@ -151,6 +172,7 @@
 		}
 
 // WHO ARE YOU
+// ----------------------------------------------------------
 
 		.whoAreYouBoxContainer {
 			margin: 18px;
@@ -200,22 +222,15 @@
 			padding-top: 40px;
 		}
 
-// MEMBER
+// MEMBER / CONTACT
+// ---------------------------------------------------------
 
 		.memberTextContainer {
 			max-width: 1200px;
 		}
 
-		
-
-// CONTACT
-
-		.textContact {
-			margin-bottom: 300px;
-		}
-
-
 // FOOTER
+// ---------------------------------------------------------
 
 		footer {
 			Height: 270px;
@@ -234,6 +249,7 @@
 
 
 // MEDIA QUERY - ONLY MAX-WIDTH
+// ---------------------------------------------------------
 
 		// TO: Extra small devices
 				@media (max-width: 575.98px) {
@@ -288,6 +304,7 @@
 
 
 // MEDIA QUERY - BETWEEN MIN AND MAX
+// -------------------------------------------------------------
 
 		// ONLY: Small devices 
 				@media (min-width: 576px) and (max-width: 767.98px) {  
